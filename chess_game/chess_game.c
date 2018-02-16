@@ -14,12 +14,6 @@ int pos_p2[2][16];
 int row, col;
 int m_row, m_col;
 
-void makeMove(int player){
-	init_pair(3, COLOR_BLUE, COLOR_WHITE);
-	attron(COLOR_PAIR(3));
-	printw("dick");
-}
-
 void changeState(int *s){
 	if(*s == W_FIRST) {
 		*s = Y_FIRST;	
